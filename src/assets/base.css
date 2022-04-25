@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
+  background-color: rgb(255, 255, 255);
 }
 
 #app {
@@ -15,7 +16,7 @@ body {
 }
 
 #header, #content, #sidenav, #footer {
-  border: 1px solid green;
+  border: 3px solid black;
 }
 
 #header {
@@ -34,10 +35,16 @@ body {
 }
 
 .block {
-  width: 300px;
+  width: 590px;
   height: 300px;
-  border: 1px solid blue;
+  border: 5px solid black;
+  background-color: rgba(0, 0, 0, 0.247);
+  color: white;
   border-radius: 15px;
   padding: 20px;
   margin: 10px;
+  text-align: center;
+}
+.caixa {
+  background-color: rgba(0, 0, 0, 0.247);
 }
