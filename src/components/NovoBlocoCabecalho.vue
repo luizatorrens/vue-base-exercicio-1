@@ -2,5 +2,5 @@
 export default {};
 </script>
 <template>
-  <article class="caixa">Conteúdo</article>
+  <article class="caixa">Deu certo!?</article>
 </template>

@@ -2,6 +2,9 @@ body {
   margin: 0;
   height: 100vh;
   background-color: rgb(255, 255, 255);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
 }
 
 #app {
@@ -16,7 +19,7 @@ body {
 }
 
 #header, #content, #sidenav, #footer {
-  border: 3px solid black;
+  border: 3px solid lightpink;
 }
 
 #header {
@@ -35,16 +38,27 @@ body {
 }
 
 .block {
-  width: 590px;
-  height: 300px;
-  border: 5px solid black;
-  background-color: rgba(0, 0, 0, 0.247);
+  width: 350px;
+  height: 200px;
+  border: 5px solid lightpink;
+  background-color: rgba(0, 0, 0, 0.397);
   color: white;
   border-radius: 15px;
-  padding: 20px;
-  margin: 10px;
+  padding: 50px;
+  margin: 30px;
   text-align: center;
 }
 .caixa {
-  background-color: rgba(0, 0, 0, 0.247);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.alerta {
+  background-color: rgba(137, 43, 226, 0.473);
+}
+.bloco {
+  width: 38%;
+}
+ul li{
+  color: white;
 }
